@@ -56,7 +56,7 @@ SCRIPT
 Vagrant.configure("2") do |config|
 
 	# Define base image
-	config.vm.box = "puphpet/centos65-x64"
+	config.vm.box = "bento/centos-6.7"
 
 	# Manage /etc/hosts on host and VMs
   	config.hostmanager.enabled = false
